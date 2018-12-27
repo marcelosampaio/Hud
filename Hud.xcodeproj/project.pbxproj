@@ -12,6 +12,7 @@
 		2DC46CA421D541F400B782C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC46CA221D541F400B782C5 /* Main.storyboard */; };
 		2DC46CA621D5420300B782C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC46CA521D5420300B782C5 /* Assets.xcassets */; };
 		2DC46CA921D5420300B782C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC46CA721D5420300B782C5 /* LaunchScreen.storyboard */; };
+		2DC46CB221D5422500B782C5 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC46CB121D5422500B782C5 /* UIView+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2DC46CA521D5420300B782C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC46CA821D5420300B782C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DC46CAA21D5420300B782C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC46CB121D5422500B782C5 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 		2DC46C9D21D541F400B782C5 /* Hud */ = {
 			isa = PBXGroup;
 			children = (
-				2DC46CB021D5420B00B782C5 /* New Group */,
+				2DC46CB021D5420B00B782C5 /* Extensions */,
 				2DC46C9E21D541F400B782C5 /* AppDelegate.swift */,
 				2DC46CA021D541F400B782C5 /* ViewController.swift */,
 				2DC46CA221D541F400B782C5 /* Main.storyboard */,
@@ -65,11 +67,12 @@
 			path = Hud;
 			sourceTree = "<group>";
 		};
-		2DC46CB021D5420B00B782C5 /* New Group */ = {
+		2DC46CB021D5420B00B782C5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2DC46CB121D5422500B782C5 /* UIView+Utils.swift */,
 			);
-			path = "New Group";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DC46CA121D541F400B782C5 /* ViewController.swift in Sources */,
+				2DC46CB221D5422500B782C5 /* UIView+Utils.swift in Sources */,
 				2DC46C9F21D541F400B782C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
